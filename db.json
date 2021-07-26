@@ -1,0 +1,548 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "age": 34,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Jason",
+      "lastName": "Mews",
+      "email": "jay@gmail.com",
+      "age": 16,
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Mark",
+      "lastName": "Williams",
+      "email": "john@gmail.com",
+      "age": 25,
+      "companyId": "2"
+    },
+    {
+      "id": "4",
+      "firstName": "Sarah",
+      "lastName": "McGregor",
+      "email": "sarah@hotmail.com",
+      "age": 47,
+      "companyId": "3"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "apple",
+      "description": "some company called apple."
+    },
+    {
+      "id": "2",
+      "name": "microsoft",
+      "description": "A company called microsoft"
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "description": "A company called Google"
+    }
+  ],
+  "Travelers": [
+    {
+      "EmailAddress": "vamshi.fake@fakemail.com",
+      "TravelerGuid": "012F5ECA-F513-456E-A4FC-3B59B030D083",
+      "LuminaID": null
+    },
+    {
+      "EmailAddress": "hub.booker@test.com",
+      "TravelerGuid": "104A1B63-D542-4FAD-B232-DF550D043A84",
+      "LuminaID": null
+    },
+    {
+      "EmailAddress": "livetestuser123@test.com",
+      "TravelerGuid": "56760179-BAEA-4876-A7DF-E0E618A9EE00",
+      "LuminaID": null
+    },
+    {
+      "EmailAddress": "hub.traveller@test.com",
+      "TravelerGuid": "9668DF47-D572-44A0-9CFC-EABC2D66D801",
+      "LuminaID": null
+    }
+  ],
+  "Profile": [
+    {
+      "ProfileIdentity": {
+        "EmailAddress": "faker@flightcentre.com",
+        "TravelerGuid": "28252A7C-FAA6-4AEB-BBE0-603984BA5F2C",
+        "LuminaID": "4975714",
+        "ExternalIdentifier": null
+      },
+      "CompanyIdentity": {
+        "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+        "PseudoCity": {
+          "Code": "JQ1I"
+        },
+        "StarBar": "FCTGDT",
+        "CountryCode": "AU",
+        "CompanyGroupId": 1382,
+        "CompanyGroup": "Flight Centre AU",
+        "FcmGroupName": null
+      },
+      "EmailAddress": "faker@flightcentre.com",
+      "Prefix": "MRS",
+      "FirstName": "Ali",
+      "MiddleName": null,
+      "LastName": "Ocon",
+      "Suffix": null,
+      "DateOfBirth": "1900-01-01",
+      "Gender": "F",
+      "JobTitle": null,
+      "VipCode": null,
+      "EmployeeID": "320009",
+      "RedressNumber": null,
+      "KnownTravelerNumber": null,
+      "NewLuminaID": null,
+      "Breaks": null,
+      "Addresses": null,
+      "EmailAddresses": [
+        {
+          "Email": "faker@flightcentre.com",
+          "EmailAddressType": {
+            "Code": "P"
+          }
+        }
+      ],
+      "EmergencyContacts": null,
+      "MembershipNumbers": [
+        {
+          "Vendor": {
+            "Code": "QF",
+            "VendorType": {
+              "Code": "A"
+            }
+          },
+          "Number": "2337551",
+          "Status": null,
+          "ExpirationDate": null
+        },
+        {
+          "Vendor": {
+            "Code": "VA",
+            "VendorType": {
+              "Code": "A"
+            }
+          },
+          "Number": "8220005683",
+          "Status": null,
+          "ExpirationDate": null
+        }
+      ],
+      "Documents": [
+        {
+          "Citizenship": {
+            "CountryCode": "AU"
+          },
+          "DocumentType": {
+            "Code": "P"
+          },
+          "ExpirationDate": "2026-08-04",
+          "IssueCountry": {
+            "CountryCode": "AU"
+          },
+          "IssueDate": null,
+          "IssueLocation": "AU",
+          "Number": "90123456"
+        }
+      ],
+      "PhoneNumbers": [
+        {
+          "PhoneType": {
+            "PhoneTypeCode": "C"
+          },
+          "PhoneNumber": "400000000",
+          "InternationalDiallingCode": {
+            "DiallingCode": 61,
+            "Country": {
+              "CountryCode": "AU"
+            }
+          }
+        }
+      ],
+      "AirPreferences": {
+        "AisleWindowPreference": null,
+        "LeftRightPreference": null,
+        "ForwardTailPreference": null,
+        "BulkheadExitPreference": null,
+        "MealPreference": null,
+        "DepartureAirport": {
+          "IATACode": "BNE"
+        }
+      },
+      "CarPreferences": {
+        "SmokingPreference": {
+          "NonSmoking": true
+        },
+        "CarSizePreference": null,
+        "EquipmentPreference1": null,
+        "EquipmentPreference2": null,
+        "EquipmentPreference3": null,
+        "EquipmentPreference4": null
+      },
+      "HotelPreferences": {
+        "SmokingPreference": {
+          "NonSmoking": true
+        },
+        "RoomTypePreference": null,
+        "HandicappedPreference": {
+          "RequireHandicapped": false
+        },
+        "DiscountRateEligibility": null
+      },
+      "RailPreferences": null,
+      "Remarks": null,
+      "ReportingFields": [
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U11"
+          },
+          "Data": "PW"
+        },
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U12"
+          },
+          "Data": "0157"
+        },
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U61"
+          },
+          "Data": "320009"
+        },
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U13"
+          },
+          "Data": "458488"
+        },
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U98"
+          },
+          "Data": "EMP"
+        },
+        {
+          "ReportingFieldType": {
+            "ReportingFieldTypeCode": "U54"
+          },
+          "Data": "UBER"
+        }
+      ],
+      "TravelArrangers": null,
+      "DiscountCards": null,
+      "Manager": null,
+      "OnlineEnabled": true,
+      "ProfileName": "OCON/ALI MRS 4975714",
+      "NickName": null,
+      "UserLevel": "TA",
+      "SelfDesignatingManager": true,
+      "SabreProfileId": null,
+      "CreateDate": "2020-03-04T01:35:00.863",
+      "LastUpdatedDate": "2021-02-22T14:32:18.553",
+      "LastUpdatedBy": "ap_ImportNormalized-HRImport",
+      "ReportsAccess": false,
+      "DefaultApprovers": null,
+      "AlternateApprovers": null,
+      "ApprovalLevel": null,
+      "OBT": {
+        "SerkoRoleGroups": []
+      },
+      "ExternalIdentifier": null
+    }
+  ],
+  "Company": [
+    {
+      "Travelers": [
+        {
+          "TravelerGUID": "06839DCA-787B-4C81-90E7-B1D9DFC7137A",
+          "FirstName": "Demo",
+          "MiddleName": "",
+          "LastName": "User",
+          "Email": "demouser@fakemail.com",
+          "EmployeeID": null
+        },
+        {
+          "TravelerGUID": "20B433EB-005B-4E12-8D84-106F50B3E6F6",
+          "FirstName": "Fake",
+          "MiddleName": "Bunny",
+          "LastName": "Fake",
+          "Email": "test@gmail.com",
+          "EmployeeID": "REC6178409639"
+        }
+      ]
+    }
+  ],
+  "initialRequest": [
+    {
+      "TravelerGUID": "06839DCA-787B-4C81-90E7-B1D9DFC7137A",
+      "EmailAddress": "demouser@fakemail.com",
+      "FirstName": "Alex",
+      "LastName": "Test",
+      "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+      "UserRole": "SomeLevelOfAuth"
+    }
+  ],
+  "GetAllData": [
+    {
+      "Travellers": [
+        {
+          "TravelerGUID": "51D5D4F2-95F8-4959-9F24-6680AAB465EA",
+          "EmailAddress": "cap@fakemail.com",
+          "FirstName": "Steve",
+          "LastName": "Rogers",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "216F4056-2B28-456B-B71A-FD15DB60ED92",
+          "EmailAddress": "angry@fakemail.com",
+          "FirstName": "Bruce",
+          "LastName": "Banner",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "EE7D74F1-9098-4C28-9BE5-3F51F7443CCF",
+          "EmailAddress": "latvia@fakemail.com",
+          "FirstName": "Victor",
+          "LastName": "Von Doom",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "19719244-06C6-4436-B996-838A192685DD",
+          "EmailAddress": "stark.industries@fakemail.com",
+          "FirstName": "Tony",
+          "LastName": "Stark",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "B3056D0D-178B-46F2-8085-8990F5A86D5E",
+          "EmailAddress": "redroom@fakemail.com",
+          "FirstName": "Natasha",
+          "LastName": "Romanov",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "858861B1-FD91-40EA-B63E-2484BF3308BE",
+          "EmailAddress": "burgular@fakemail.com",
+          "FirstName": "Scott",
+          "LastName": "Lang",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "6761748A-7E0F-408F-9C40-AD0D4462D327",
+          "EmailAddress": "bucky@fakemail.com",
+          "FirstName": "Bucky",
+          "LastName": "Barnes",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "84AD798F-24AC-4587-929E-14F02C151C06",
+          "EmailAddress": "hawkeye@fakemail.com",
+          "FirstName": "Clint",
+          "LastName": "Barton",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "F37B5430-9BA5-4021-B810-7996D8D00C20",
+          "EmailAddress": "asgard@fakemail.com",
+          "FirstName": "Thor",
+          "LastName": "Odinson",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "63487856-D57B-469C-AD63-113D45CD0CD8",
+          "EmailAddress": "clone@fakemail.com",
+          "FirstName": "Beta",
+          "LastName": "Ray Bill",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "4B42B28B-5940-4307-B072-61237E8E3A7B",
+          "EmailAddress": "parker@fakemail.com",
+          "FirstName": "Peter",
+          "LastName": "Parker",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "FB0AD261-0A4D-4B3D-9A8C-EC15CA2255E8",
+          "EmailAddress": "venom@fakemail.com",
+          "FirstName": "Eddie",
+          "LastName": "Brock",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "950FA167-11CA-404A-9083-2E8D672E5393",
+          "EmailAddress": "mj@fakemail.com",
+          "FirstName": "Mary-Jane",
+          "LastName": "Watson",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "BA270069-2FA8-40FC-A729-E3D51040E82A",
+          "EmailAddress": "doc.ock@fakemail.com",
+          "FirstName": "Otto",
+          "LastName": "Octavius",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "314F2E55-F817-4513-855A-B20A0AD7B3A8",
+          "EmailAddress": "mrfantastic@fakemail.com",
+          "FirstName": "Reid",
+          "LastName": "Richards",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "C5138333-FBA6-4F8A-964A-E841C02E27DA",
+          "EmailAddress": "mrs-invisible@fakemail.com",
+          "FirstName": "Sue",
+          "LastName": "Storm",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "0724569D-4974-4FBA-B330-A41E34773BE3",
+          "EmailAddress": "flameon@fakemail.com",
+          "FirstName": "Johnny",
+          "LastName": "Storm",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "C0675923-E671-43B8-831F-8ED2B0FE281F",
+          "EmailAddress": "thething@fakemail.com",
+          "FirstName": "Ben",
+          "LastName": "Grimm",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "74DEADF4-2FEE-42E3-BCFD-56CF48C557D3",
+          "EmailAddress": "magneto@fakemail.com",
+          "FirstName": "Erik",
+          "LastName": "Lehnsherr",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "01653167-0EDC-4785-9619-5C6CEDFCBF4A",
+          "EmailAddress": "profx@fakemail.com",
+          "FirstName": "Charles",
+          "LastName": "Xavier",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        }
+      ],
+      "Approvers": [
+        {
+          "TravelerGUID": "06839DCA-787B-4C81-90E7-B1D9DFC7137A",
+          "EmailAddress": "fakealex@fakemail.com",
+          "FirstName": "Alex",
+          "LastName": "Test",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "893A4921-F10B-4030-A34A-7A478869BD95",
+          "EmailAddress": "fakedave@fakemail.com",
+          "FirstName": "Dave",
+          "LastName": "Tester",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "21966191-E2EC-4A57-AAA9-E5419ECA23A7",
+          "EmailAddress": "snehafake@fakemail.com",
+          "FirstName": "Sneha",
+          "LastName": "Jones",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "4DCE9F8D-B2EC-40D2-A03D-05D3E1C324ED",
+          "EmailAddress": "issey.fake@fakemail.com",
+          "FirstName": "Issey",
+          "LastName": "Smith",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "08621DEA-83E5-4DB4-8E0C-27006B681E07",
+          "EmailAddress": "robbo-fake@fakemail.com",
+          "FirstName": "Robyn",
+          "LastName": "Thompson",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        }
+      ],
+      "Arrangers": [
+        {
+          "TravelerGUID": "5422C2E2-9500-4EF8-B673-3FED6D1F6942",
+          "EmailAddress": "aljones@fakemail.com",
+          "FirstName": "Al",
+          "LastName": "Jones",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "F795BEDA-1B63-42EA-A141-49239991F2A4",
+          "EmailAddress": "skroo@fakemail.com",
+          "FirstName": "Skroo",
+          "LastName": "McSkroo",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "FC14AECE-AB8A-47E7-9393-F75414B318BE",
+          "EmailAddress": "thebeetle@fakemail.com",
+          "FirstName": "Bertie",
+          "LastName": "Beetle",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "EFA36AC9-8935-4F80-9CB9-2E244FEF8A03",
+          "EmailAddress": "Mike@fakemail.com",
+          "FirstName": "Mike",
+          "LastName": "Mikey",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        },
+        {
+          "TravelerGUID": "56C1A729-9FBC-416B-B65C-FDD68EBEFF7D",
+          "EmailAddress": "rayray@fakemail.com",
+          "FirstName": "Ray",
+          "LastName": "Jones",
+          "CompanyGuid": "64C97A23-696F-4CA8-AE95-EFDB722AF831",
+          "UserRole": "SomeLevelOfAuth"
+        }
+      ]
+    }
+  ]
+}
