@@ -544,5 +544,104 @@
         }
       ]
     }
+  ],
+  "TravelRequests": [
+    {
+      "travelRequestId": "577813FB-6460-4CD7-B60D-B357D3593953",
+      "leadTraveller": "Bruce Wayne",
+      "firstDate": "11 May 2022",
+      "lastDate": "21 May 2022",
+      "tripRoute": "BNE/SYD/BNE",
+      "travellers": "1",
+      "status": "pending"
+    },
+    
+    {
+      "travelRequestId": "8558FF07-C549-48F1-9036-69EDCC1898EF",
+      "leadTraveller": "Clark Kent",
+      "firstDate": "25 Dec 2021",
+      "lastDate": "31 Dec 2021",
+      "tripRoute": "SYD/MEL/SYD",
+      "travellers": "1",
+      "status": "pending"
+    },
+    
+    {
+      "travelRequestId": "15D455D6-8836-404E-89EA-6E91D8438080",
+      "leadTraveller": "Louis Lane",
+      "firstDate": "11 Oct 2021",
+      "lastDate": "25 Oct 2021",
+      "tripRoute": "PER/SYD/PER",
+      "travellers": "2",
+      "status": "approved"
+    },
+    
+    {
+      "travelRequestId": "27353443-B730-4AEE-9BE3-799511292BBC",
+      "leadTraveller": "Alexander Luthor",
+      "firstDate": "29 Aug 1983",
+      "lastDate": "11 Sep 1983",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "3",
+      "status": "completed"
+    },
+    
+    {
+      "travelRequestId": "6CF26C3F-5BF3-4789-88C7-4CCA2AC47A27",
+      "leadTraveller": "Jay Garrick",
+      "firstDate": "14 NOV 2021",
+      "lastDate": "18 NOV 2021",
+      "tripRoute": "CBR/BNE/CBR",
+      "travellers": "1",
+      "status": "pending"
+    },
+
+
+    {
+      "travelRequestId": "CE7DFDBB-AE53-4EBB-88F5-8E2399CF48CE",
+      "leadTraveller": "Oliver Queen",
+      "firstDate": "29 Aug 2021",
+      "lastDate": "11 Sep 2021",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "5",
+      "status": "completed"
+    },
+    {
+      "travelRequestId": "0C96D455-968D-4887-8EC8-C9544A57E4DF",
+      "leadTraveller": "Hal Jordan",
+      "firstDate": "29 Apr 2022",
+      "lastDate": "11 May 2022",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "2",
+      "status": "draft"
+    },
+    {
+      "travelRequestId": "7164F791-1CB6-46A4-B0FB-40CA56B9DAFD",
+      "leadTraveller": "Dick Grayson",
+      "firstDate": "25 Jan 2022",
+      "lastDate": "11 Feb 2022",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "3",
+      "status": "draft"
+    },
+    {
+      "travelRequestId": "FB752EAB-F0E7-410E-9826-0F9B3A51C0E5",
+      "leadTraveller": "Tim Drake",
+      "firstDate": "01 Sep 2021",
+      "lastDate": "11 Sep 2021",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "1",
+      "status": "completed"
+    },
+    {
+      "travelRequestId": "D55F619A-B9ED-4430-A31F-E8A180558F5A",
+      "leadTraveller": "Selena Kyle",
+      "firstDate": "29 Jun 2022",
+      "lastDate": "11 Jul 2022",
+      "tripRoute": "SYD/MAD/SYD",
+      "travellers": "13",
+      "status": "approved"
+    }
+    
   ]
 }
