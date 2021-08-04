@@ -583,7 +583,7 @@
       "lastDate": "11 Sep 1983",
       "tripRoute": "SYD/MAD/SYD",
       "travellers": "3",
-      "status": "completed"
+      "status": "approved"
     },
     
     {
@@ -604,7 +604,7 @@
       "lastDate": "11 Sep 2021",
       "tripRoute": "SYD/MAD/SYD",
       "travellers": "5",
-      "status": "completed"
+      "status": "pending"
     },
     {
       "travelRequestId": "0C96D455-968D-4887-8EC8-C9544A57E4DF",
@@ -631,7 +631,7 @@
       "lastDate": "11 Sep 2021",
       "tripRoute": "SYD/MAD/SYD",
       "travellers": "1",
-      "status": "completed"
+      "status": "draft"
     },
     {
       "travelRequestId": "D55F619A-B9ED-4430-A31F-E8A180558F5A",
